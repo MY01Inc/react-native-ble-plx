@@ -18,8 +18,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion safeExtGet('compileSdkVersion', 31)
-    buildToolsVersion safeExtGet('buildToolsVersion', '30.0.2')
+    compileSdkVersion  31
+    buildToolsVersion '31.0.0'
 
     defaultConfig {
         minSdkVersion 21
@@ -51,7 +51,6 @@ repositories {
 dependencies {
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation "com.facebook.react:react-native:+"
-    implementation 'com.github.Polidea:MultiPlatformBleAdapter:b0272c0fae040cc90f790481c54e8f2d45304339'
-
+    implementation 'com.github.MY01Inc:MultiPlatformBleAdapter:62f5bfd5cabbdf1e9e4c5d8095ab77d276c03301'
     testImplementation 'junit:junit:4.13.2'
 }
