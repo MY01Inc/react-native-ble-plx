@@ -1,3 +1,6 @@
+**2.0.6**
+- Updated MultiplatformBleAdapter to version 1.15.1
+
 **2.0.3**
 - Updated MultiplatformBleAdapter to version 0.1.9
 
