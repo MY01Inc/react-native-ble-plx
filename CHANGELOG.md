@@ -1,5 +1,6 @@
-**2.0.6**
+**2.1.0**
 - Updated MultiplatformBleAdapter to version 1.15.1
+- Added support for Android 12 devices
 
 **2.0.3**
 - Updated MultiplatformBleAdapter to version 0.1.9
