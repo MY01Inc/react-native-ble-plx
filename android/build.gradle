@@ -9,7 +9,7 @@ buildscript {
         google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.0.3'
+        classpath 'com.android.tools.build:gradle:7.3.1'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.31"
     }
 }
@@ -51,6 +51,6 @@ repositories {
 dependencies {
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation "com.facebook.react:react-native:+"
-    implementation 'com.github.MY01Inc:MultiPlatformBleAdapter:4e98f6fb0b9b59f0082fbfeea612dd0a5fb9db88'
+    implementation 'com.github.OneKeyHQ:MultiPlatformBleAdapter:4e98f6fb0b9b59f0082fbfeea612dd0a5fb9db88'
     testImplementation 'junit:junit:4.13.2'
 }
